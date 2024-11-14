@@ -1,0 +1,88 @@
+body {
+  margin: 0;
+  padding: 0;
+  background: url("../imagenes/fondo.png") no-repeat;
+  background-size: cover;
+  font-family: sans-serif, Arial, Verdana;
+  height: 100vh;
+}
+.container {
+  width: 320px;
+  height: 280px;
+  background: black;
+  color: white;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  position: absolute;
+  border-radius: 10px;
+  padding: 70px 30px;
+}
+.logo {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  position: absolute;
+  top: -90px;
+  left: calc(45% - 50px);
+}
+.container h1 {
+  margin: 0;
+  padding: 0 0 20px;
+  text-align: center;
+  font-size: 22px;
+}
+.container label {
+  margin: 0;
+  padding: 0;
+  font-weight: bold;
+  display: block;
+}
+.container input {
+  width: 100%;
+  padding: 10px 0;
+  font-size: 16px;
+  display: block;
+  margin: 0 0 15px;
+  border: none;
+  border-bottom: 1px solid #ccc;
+}
+.container input[type="text"],
+[type="password"] {
+  border: none;
+  border-bottom: 1px solid #fff;
+  background: transparent;
+  color: white;
+  outline: none;
+  height: 5px;
+  font-size: 16px;
+}
+.container input[type="submit"] {
+  border: none;
+  outline: none;
+  height: 40px;
+  font-size: 18px;
+  border-radius: 20px;
+  background: blue;
+  color: white;
+}
+.container a {
+  text-decoration: none;
+  font-size: 12px;
+  line-height: 5px;
+  color: white;
+}
+.container a:hover {
+  color: blue;
+}
+.container .links {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+  margin-top: 55px;
+}
+.container .links i {
+  font-size: 20px;
+  color: white;
+}
